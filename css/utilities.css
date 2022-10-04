@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+:root{
+    --secondy:rgb(130, 129, 129);
+    --linkcolor:rgb(105, 105, 251);
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+
+.flex{
+    display: flex;
+}
+
+.collum{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-gap:1rem;
+}
